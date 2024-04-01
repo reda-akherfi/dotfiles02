@@ -1,0 +1,17 @@
+.config/clipcat/clipredalog.log
+.config/mpd/database
+.config/mpd/playlists/*
+.config/mpd/sticker.sql
+.config/qutebrowser/bookmarks/urls
+.config/ncmpcpp/previews/*
+.config/ncmpcpp/lyrics/*
+.config/ncmpcpp/error.log
+.config/neomutt/com.gmail.akherfi07/*
+.config/neomutt/com.gmail.akherfi68/*
+.config/neomutt/com.gmail.francophone2017/*
+.config/qutebrowser/*
+.config/networkmanager-dmenu/*
+.config/qtile/__pycache__
+/config/vifm/*
+mime/*
+**/__pycache__/*
