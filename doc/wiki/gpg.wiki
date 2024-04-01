@@ -1,0 +1,37 @@
+= gpg =
+
+* according to xdg ninja : export PASSWORD_STORE_DIR="$XDG_DATA_HOME"/pass 
+* the gpg keys are stored in ~/.gnupg
+
+* what is in that dir :
+    * openpgp-revocs.d: This subdirectory contains your revocation certificate. You'll need this if your private key ever becomes common knowledge or otherwise compromised. Your revocation certificate is used in the process of retiring your old keys and adopting new keys.
+    * private-keys-v1.d: This subdirectory stores your private keys.
+    * pubring.kbx: An encrypted file. It contains public keys, including yours, and some metadata about them.
+    * trustdb.gpg: This holds the trust relationships you have established for your own keys and for any accepted public keys belonging to other people. 
+
+*  Determining Which Keys to Back Up : *gpg --list-secret-keys --keyid-format LONG*
+* To back up the public keys, use the --export  option. We're also going to use the --export-options backup options. This ensures all GPG-specific metadata is included to allow the files to be imported correctly on another computer: 
+    *gpg --export --export-options backup --output public.gpg*
+* backing up the pub key for  a single identity : *gpg --export --export-options backup --output public.gpg dave@madeupdomain.com*
+
+* backing up our secret keys :
+    * *gpg --export-secret-keys --export-options backup --output private.gpg*
+
+* backing up the trust database [conns we make along the way]:
+    * *gpg --export-ownertrust > trust.gpg*
+
+* you must end up with three files :
+    * private.gpg
+    * public.gpg [or several in case we exported multiple identities]
+    * trust.gpg
+
+
+
+
+* on the other side :
+    * *gpg --import public.gpg* : The details of the key are displayed as it is imported. The "trustdb.gpg" file is also created for us.
+    * *gpg --import private.gpg* : this is where you are prompted to enter the passphrase for the private keys
+    * *gpg --import-ownertrust trust.gpg*
+    * *gpg --list-secret-keys --keyid-format LONG*  : #sanity check
+
+       

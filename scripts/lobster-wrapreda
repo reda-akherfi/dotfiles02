@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+# typee="$(echo -e "movie\ntv show\nanime" | fzf --header="           What do want to watch Sir: " --border=rounded --reverse  --header-first)"
+
+# if [ "$typee" = "anime" ];then
+#     program="mov-cli"
+# else
+#     program="$(echo -e "lobster\nmov-cli" | fzf --header="           Which program tickles your greatness, my Lord: " --border=rounded --reverse  --header-first)"
+# fi
+
+# read -p "Enter the name of the $typee, my Leige: \n" search_keywords
+# if [ $program = "lobster" ];then
+#    lobster "$search_keywords" 
+# else
+#     source ~/temp/venv/bin/activate
+#     mov-cli "$search_keywords"
+# fi
+
+action="$(echo -e "Continue where you left off!\nWatch a new thing\nRecent movies\nRecent Tv shows" | rofi -dmenu )"
+case $action in
+    "Continue where you left off!")
+       lobster --rofi --continue --quiet  
+       ;;
+   "Watch a new thing")
+       lobster  --quiet --rofi 
+       ;;
+   "Recent movies")
+       lobster --rofi --quiet  --recent movies 
+       ;;
+   "Recent Tv shows")
+       lobster --rofi --quiet  --recent tv 
+       ;;
+esac

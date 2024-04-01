@@ -1,0 +1,10 @@
+# reverting a single file to its state at the last commit
+git checkout HEAD -- <file_name>
+# xrandr stuff
+xrandr --output "eDP1" --mode 1600x900
+change the dpi in .Xresources to 158
+adding a line to .xinitrc for setting the dpi since xrandr kinda suck at it?
+# shell scripting
+^-- SC1014 (warning): Use 'if cmd; then ..' to check exit code, or 'if [[ $(cmd) == .. ]]' to check output.
+
+Set colors.webpage.darkmode.policy.images to never

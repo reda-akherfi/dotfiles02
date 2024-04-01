@@ -1,0 +1,67 @@
+# make sxhkd reload its configuration files:
+shift + super + r
+	pkill -USR1 -x sxhkd
+
+# rofi and its related scripts
+# super + u
+#    i3lock --show-failed-attempts --image ~/dotfiles/wallpapers-stash/weird-mountain.png --tiling && systemctl suspend
+super + c
+    clipcat-menu
+super + Return
+    /home/reda/dotfiles/.config/qtile/scripts/tmux.sh
+
+######################################################################
+#        dmenu stuff
+######################################################################
+super + r
+    dmenu_run -fn "Roboto Mono:style=Bold:size=20" -l 10 -nb "#333333" -nf "#f5f5f5" -sf "#000000" -sb "#ffffff" -c -bw 10 
+super + p
+    passmenu -fn "Roboto Mono:style=Bold:size=20" -l 10 -nb "#333333" -nf "#f5f5f5" -sf "#000000" -sb "#ffffff" -c -bw 10 
+super + d
+    rofi  -show drun
+super + a
+    rofi  -show window
+
+
+######################################################################
+#        software mode   [super s]
+######################################################################
+# setting up the wallpaper using feh
+# toggling picom and setting up the wallpaper
+super + s ; {p,w}
+    {picom_toggle --toggle,feh --bg-fill --recursive --randomize ~/temp/nordic-wallpapers/wallpapers/}
+super + s ; {t}
+    {killall transmission-daemon ;; transmission-daemon -c ~/torrents/watch-dir/ && notify-send "transmission" "RESTARTED the daemon"}
+super + s ; {m,s}
+    {/home/reda/dotfiles/scripts/lobster-wrapreda,/home/reda/dotfiles/.config/rofi/scripts/rofi-screenshot.sh}
+
+######################################################################
+#        modification mode [volume, wifi, ...] sys stuff
+######################################################################
+alt + {s,h,m} : {h,j,k,l}
+    amixer -c 0 sset {"Speaker","Headphone","Master"}  {2%-,off,on,2%+}
+super + m ; {h,j,k,l,s}
+    mpc {prev,stop,play,next,random} && notify-send "mpd" {_,"playback stopped",_,_,"shuffle mode is toggled"}
+super + b : {h,j,k,l}
+    brightnessctl set {5%-,0%,60%,5%+}
+
+###    # Qutebrowser mode
+###    KeyChord([mod], "b", [
+###        Key([], "b", lazy.spawn("qutebrowser --set zoom.default 125")),
+###        Key([], "d", lazy.spawn("/home/reda/.config/qtile/scripts/dmenu/meriam-dict.sh")),
+###        Key([], "p", lazy.spawn("/home/reda/.config/qtile/scripts/dmenu/piracy.sh")),
+###        Key([], "y", lazy.spawn("/home/reda/.config/qtile/scripts/dmenu/youtube.sh")),
+###        Key([], "r", lazy.spawn("qutebrowser --set zoom.default 125  --target window https://www.reddit.com/")),
+###        Key([], "c", lazy.spawn(
+###            "qutebrowser  --target window --set zoom.default 125 https://chat.openai.com/")),
+###        Key([], "g", lazy.spawn(
+###            "qutebrowser  --target window --set zoom.default 125 https://gemini.google.com/app")),
+###        Key([], "m", lazy.spawn("qutebrowser --target window --set zoom.default 125 http://m.inpt.ac.ma/my/ ":open -t https://gemini.google.com/app;;open -t https://chat.openai.com/;;open -t https://web.whatsapp.com/"")),
+###    ],
+###        #mode=True,
+###        #name="browser mode"
+###    ),
+#    # setting up redshift
+#    Key([mod, "control"], "n", lazy.spawn("xgamma -bgamma 0.4")),
+#    Key([mod, "control"], "d", lazy.spawn("xgamma -bgamma 1.0")),
+###

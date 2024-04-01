@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+
+############################################################
+### before chrooting
+############################################################
+# generating the fstab file
+echo "generating the fstab file "
+sleep 2
+genfstab -U /mnt >> /mnt/etc/fstab
+# chrooting to the life env
+echo "installing software"
+pacstrap -K /mnt base linux linux-firmware intel-ucode networkmanager
+sleep 2
+
+arch-chroot /mnt ./inside-chroot.sh

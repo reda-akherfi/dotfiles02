@@ -1,0 +1,75 @@
+$include /etc/inputrc
+
+######################################################################
+### vi in bash
+######################################################################
+# activating the vi mode
+set editing-mode vi
+# show which mode I am currently in
+set show-mode-in-prompt on
+set vi-ins-mode-string  ( ins )
+set vi-cmd-mode-string "\1\e[1;31m\2 (cmd) \1\e[0m\2"
+
+# setting up the cursor to reflect the curr mode
+#set vi-ins-mode-string \1\e[6 q\2
+#set vi-cmd-mode-string \1\e[2 q\2
+# the console uses diff escape codes
+#$if term=linux
+#	set vi-ins-mode-string \1\e[?0c\2
+#	set vi-cmd-mode-string \1\e[?8c\2
+#$else
+#	set vi-ins-mode-string \1\e[6 q\2
+#	set vi-cmd-mode-string \1\e[2 q\2
+#$endif
+#
+#
+
+
+
+######################################################################
+### colored completeion
+######################################################################
+## Color files by types
+# Note that this may cause completion text blink in some terminals (e.g. xterm).
+set colored-stats On
+# Append char to indicate type
+set visible-stats On
+# Mark symlinked directories
+set mark-symlinked-directories On
+# Color the common prefix
+set colored-completion-prefix On
+# Color the common prefix in menu-complete
+set menu-complete-display-prefix On
+
+
+######################################################################
+### searching through history
+######################################################################
+set completion-ignore-case on
+$if mode=vi
+set keymap vi-command
+# these are for vi-command mode
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+j: history-search-forward
+k: history-search-backward
+set keymap vi-insert
+# these are for vi-insert mode
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+$endif
+
+# one tab for completion
+#set show-all-if-unmodified on
+set show-all-if-ambiguous on
+set enable-bracketed-paste on
+
+
+######################################################################
+### bash key bindings
+######################################################################
+"\C-f":"cd /home/reda/.config/\n"
+"\eb":"cd ..\n"
+"\eh":"cd /home/reda/\n"
+"\ed":"cd /home/reda/dotfiles/.config/\n"
+"\er":"ranger\n"

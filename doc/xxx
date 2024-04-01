@@ -1,0 +1,317 @@
+Markdown rendering will be done by bat. (Glow is recommended)
+[1m[36mThe $XDG_DATA_HOME environment variable is not set, make sure to add it to your shell's configuration before setting any of the other environment variables![0m
+[1m[36m    ⤷ The recommended value is: [1m[3m$HOME/.local/share[0m
+[1m[36mThe $XDG_CONFIG_HOME environment variable is not set, make sure to add it to your shell's configuration before setting any of the other environment variables![0m
+[1m[36m    ⤷ The recommended value is: [1m[3m$HOME/.config[0m
+[1m[36mThe $XDG_STATE_HOME environment variable is not set, make sure to add it to your shell's configuration before setting any of the other environment variables![0m
+[1m[36m    ⤷ The recommended value is: [1m[3m$HOME/.local/state[0m
+[1m[36mThe $XDG_CACHE_HOME environment variable is not set, make sure to add it to your shell's configuration before setting any of the other environment variables![0m
+[1m[36m    ⤷ The recommended value is: [1m[3m$HOME/.cache[0m
+
+[1m[3mStarting to check your [36m$HOME[0m.
+
+[[1m[33mbash[0m]: [1m[3m/home/reda/.bash_logout[0m
+[38;2;255;255;255mCurrently unsupported.[0m
+
+[38;2;228;46;112m_[0m[38;2;228;46;112mRelevant issue:[0m[38;2;228;46;112m_[0m[38;2;255;255;255m [0m[4;38;2;166;226;46mhttps://savannah.gnu.org[0m[4;38;2;166;226;46m/support/[0m[4;38;2;166;226;46m?[0m[4;38;2;166;226;46m108134[0m
+
+[[1m[33mbash[0m]: [1m[3m/home/reda/.bash_profile[0m
+[38;2;255;255;255mCurrently unsupported.[0m
+
+[38;2;228;46;112m_[0m[38;2;228;46;112mRelevant issue:[0m[38;2;228;46;112m_[0m[38;2;255;255;255m [0m[4;38;2;166;226;46mhttps://savannah.gnu.org[0m[4;38;2;166;226;46m/support/[0m[4;38;2;166;226;46m?[0m[4;38;2;166;226;46m108134[0m
+
+[[1m[33mbash[0m]: [1m[3m/home/reda/.bashrc[0m
+[38;2;255;255;255mCurrently unsupported.[0m
+
+[38;2;228;46;112m_[0m[38;2;228;46;112mRelevant issue:[0m[38;2;228;46;112m_[0m[38;2;255;255;255m [0m[4;38;2;166;226;46mhttps://savannah.gnu.org[0m[4;38;2;166;226;46m/support/[0m[4;38;2;166;226;46m?[0m[4;38;2;166;226;46m108134[0m
+
+[[1m[31mbash[0m]: [1m[3m/home/reda/.bash_history[0m
+[38;2;255;255;255mExport the following environment variables:[0m
+
+[38;2;255;255;255m```[0m[38;2;190;132;255mbash[0m
+[38;2;249;38;114mexport[0m[38;2;255;255;255m [0m[38;2;255;255;255mHISTFILE[0m[38;2;249;38;114m=[0m[38;2;255;255;255m"[0m[38;2;255;255;255m$[0m[38;2;230;219;116m{[0m[38;2;255;255;255mXDG_STATE_HOME[0m[38;2;230;219;116m}[0m[38;2;255;255;255m"[0m[38;2;230;219;116m/bash/history[0m
+[38;2;255;255;255m```[0m
+
+[[1m[33mctags[0m]: [1m[3m/home/reda/.ctags[0m
+[38;2;255;255;255mCurrently unsupported.[0m
+
+[38;2;228;46;112m_[0m[38;2;228;46;112mRelevant issue:[0m[38;2;228;46;112m_[0m[38;2;255;255;255m [0m[4;38;2;166;226;46mhttps://github.com[0m[4;38;2;166;226;46m/universal-ctags/ctags/issues/89[0m
+
+[[1m[33mFirefox[0m]: [1m[3m/home/reda/.mozilla[0m
+[38;2;255;255;255mCurrently unsupported.[0m
+
+[38;2;228;46;112m_[0m[38;2;228;46;112mRelevant issue:[0m[38;2;228;46;112m_[0m[38;2;255;255;255m [0m[4;38;2;166;226;46mhttps://bugzilla.mozilla.org[0m[4;38;2;166;226;46m/show[0m[4;38;2;166;226;46m_[0m[4;38;2;166;226;46mbug[0m[4;38;2;166;226;46m.[0m[4;38;2;166;226;46mcgi[0m[4;38;2;166;226;46m?[0m[4;38;2;166;226;46mid=259356[0m
+
+[[1m[31mfontconfig[0m]: [1m[3m/home/reda/.fonts.conf[0m
+[38;2;255;255;255mSupported[0m
+
+[38;2;255;255;255mThe file $HOME/.fonts.conf can be moved to $XDG_DATA_HOME/fontconfig/fonts.conf.[0m
+
+[[1m[31mgit[0m]: [1m[3m/home/reda/.gitconfig[0m
+[38;2;255;255;255mXDG is supported out-of-the-box, so we can simply move the file to [0m[38;2;228;46;112m_[0m[38;2;228;46;112m$XDG_CONFIG_HOME/git/config[0m[38;2;228;46;112m_[0m[38;2;255;255;255m.[0m
+
+[[1m[31mgnupg[0m]: [1m[3m/home/reda/.gnupg[0m
+[38;2;255;255;255mExport the following environment variables:[0m
+
+[38;2;255;255;255m```[0m[38;2;190;132;255mbash[0m
+[38;2;249;38;114mexport[0m[38;2;255;255;255m [0m[38;2;255;255;255mGNUPGHOME[0m[38;2;249;38;114m=[0m[38;2;255;255;255m"[0m[38;2;255;255;255m$[0m[38;2;255;255;255mXDG_DATA_HOME[0m[38;2;255;255;255m"[0m[38;2;230;219;116m/gnupg[0m
+[38;2;255;255;255m```[0m
+
+[38;2;228;46;112m_[0m[38;2;228;46;112mNote: from the archwiki:[0m[38;2;228;46;112m_[0m
+[38;2;102;217;239m>[0m[38;2;102;217;239m If you use non-default GnuPG Home directory, you will need to edit all socket files to use the values of gpgconf --list-dirs.[0m
+[38;2;102;217;239m>[0m[38;2;102;217;239m If you set your SSH_AUTH_SOCK manually, keep in mind that your socket location may be different if you are using a custom GNUPGHOME[0m
+
+[[1m[31mgtk-2[0m]: [1m[3m/home/reda/.gtkrc-2.0[0m
+[38;2;255;255;255mExport the following environment variables:[0m
+
+[38;2;255;255;255m```[0m[38;2;190;132;255mbash[0m
+[38;2;249;38;114mexport[0m[38;2;255;255;255m [0m[38;2;255;255;255mGTK2_RC_FILES[0m[38;2;249;38;114m=[0m[38;2;255;255;255m"[0m[38;2;255;255;255m$[0m[38;2;255;255;255mXDG_CONFIG_HOME[0m[38;2;255;255;255m"[0m[38;2;230;219;116m/gtk-2.0/gtkrc[0m
+[38;2;255;255;255m```[0m
+
+[[1m[33mlyrics[0m]: [1m[3m/home/reda/.lyrics[0m
+[38;2;255;255;255mCurrently unsupported. No information found.[0m
+
+[[1m[31mmypy[0m]: [1m[3m/home/reda/.mypy_cache[0m
+[38;2;255;255;255mExport the following environment variables:[0m
+
+[38;2;255;255;255m```[0m[38;2;190;132;255mbash[0m
+[38;2;249;38;114mexport[0m[38;2;255;255;255m [0m[38;2;255;255;255mMYPY_CACHE_DIR[0m[38;2;249;38;114m=[0m[38;2;255;255;255m"[0m[38;2;255;255;255m$[0m[38;2;255;255;255mXDG_CACHE_HOME[0m[38;2;255;255;255m"[0m[38;2;230;219;116m/mypy[0m
+[38;2;255;255;255m```[0m
+
+[[1m[31mnpm[0m]: [1m[3m/home/reda/.npm[0m
+[38;2;255;255;255mYou need to put the following into your npmrc:[0m
+
+[38;2;255;255;255m```[0m
+[38;2;255;255;255mprefix=${XDG_DATA_HOME}/npm[0m
+[38;2;255;255;255mcache=${XDG_CACHE_HOME}/npm[0m
+[38;2;255;255;255minit-module=${XDG_CONFIG_HOME}/npm/config/npm-init.js[0m
+[38;2;255;255;255mtmp=${XDG_RUNTIME_DIR}/npm[0m
+[38;2;255;255;255m```[0m
+
+[38;2;228;46;112m_[0m[38;2;228;46;112mNote: the [0m[38;2;236;53;51m`[0m[38;2;236;53;51mtmp[0m[38;2;236;53;51m`[0m[38;2;228;46;112m option has been removed in more recent versions of npm, including it will generate a warning.[0m[38;2;228;46;112m_[0m
+
+[[1m[33mnss[0m]: [1m[3m/home/reda/.pki[0m
+[1;38;2;249;38;114m**[0m[1;38;2;249;38;114mDisclaimer: XDG is supported, but directory may be created again by some programs.[0m[1;38;2;249;38;114m**[0m
+
+[38;2;255;255;255mXDG is supported out-of-the-box, so we can simply move directory to [0m[38;2;228;46;112m_[0m[38;2;228;46;112m"$XDG_DATA_HOME"/pki[0m[38;2;228;46;112m_[0m[38;2;255;255;255m.[0m
+
+[38;2;228;46;112m_[0m[38;2;228;46;112mNote: some apps (chromium, for example) hardcode path to _"$HOME"/.pki[0m[38;2;228;46;112m_[0m[38;2;255;255;255m, so directory may appear again, see_ [0m[38;2;255;255;255m[[0m[38;2;255;255;255mhttps://bugzilla.mozilla.org/show_bug.cgi?id=818686#c11[0m[38;2;255;255;255m][0m[38;2;255;255;255m([0m[4;38;2;166;226;46mhttps://bugzilla.mozilla.org/show_bug.cgi?id=818686#c11[0m[38;2;255;255;255m)[0m[38;2;228;46;112m_[0m[38;2;228;46;112m.[0m[38;2;228;46;112m_[0m
+
+[[1m[31mohmyzsh[0m]: [1m[3m/home/reda/.oh-my-zsh[0m
+[38;2;255;255;255mSee the relevant [0m[38;2;255;255;255m[[0m[38;2;255;255;255missue[0m[38;2;255;255;255m][0m[38;2;255;255;255m([0m[4;38;2;166;226;46mhttps://github.com/ohmyzsh/ohmyzsh/issues/9543[0m[38;2;255;255;255m)[0m[38;2;255;255;255m.[0m
+
+[38;2;255;255;255mExport the following environment variables:[0m
+
+[38;2;255;255;255m```[0m[38;2;190;132;255mbash[0m
+[38;2;249;38;114mexport[0m[38;2;255;255;255m [0m[38;2;255;255;255mZSH[0m[38;2;249;38;114m=[0m[38;2;255;255;255m"[0m[38;2;255;255;255m$[0m[38;2;255;255;255mXDG_DATA_HOME[0m[38;2;255;255;255m"[0m[38;2;230;219;116m/oh-my-zsh[0m[38;2;255;255;255m [0m
+[38;2;255;255;255m```[0m
+
+[[1m[31mohmyzsh[0m]: [1m[3m/home/reda/.zshrc.pre-oh-my-zsh[0m
+[38;2;255;255;255mIf it exists, it is used when switching back to the default shell you had before installing Oh My Zsh. See the [0m[38;2;255;255;255m[[0m[38;2;255;255;255mFAQ[0m[38;2;255;255;255m][0m[38;2;255;255;255m([0m[4;38;2;166;226;46mhttps://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#how-do-i-uninstall-oh-my-zsh[0m[38;2;255;255;255m)[0m[38;2;255;255;255m for more information.[0m
+
+[38;2;255;255;255mYou can either back it up elsewhere or delete it.[0m
+
+[[1m[33mopenjdk[0m]: [1m[3m/home/reda/.java[0m
+[1;38;2;249;38;114m**[0m[1;38;2;249;38;114mDisclaimer: some applications don't respect this setting.[0m[1;38;2;249;38;114m**[0m
+
+[38;2;255;255;255mExport the following environment variable:[0m
+
+[38;2;255;255;255m```[0m[38;2;190;132;255mbash[0m
+[38;2;249;38;114mexport[0m[38;2;255;255;255m [0m[38;2;255;255;255m_JAVA_OPTIONS[0m[38;2;249;38;114m=[0m[38;2;230;219;116m-Djava.util.prefs.userRoot=[0m[38;2;255;255;255m"[0m[38;2;255;255;255m$[0m[38;2;255;255;255mXDG_CONFIG_HOME[0m[38;2;255;255;255m"[0m[38;2;230;219;116m/java[0m
+[38;2;255;255;255m```[0m
+
+[38;2;255;255;255mSee [0m[38;2;255;255;255m[[0m[38;2;255;255;255mticket[0m[38;2;255;255;255m][0m[38;2;255;255;255m([0m[4;38;2;166;226;46mhttps://bugs.java.com/bugdatabase/view_bug?bug_id=8290140[0m[38;2;255;255;255m)[0m
+
+[[1m[33mopenssh[0m]: [1m[3m/home/reda/.ssh[0m
+[38;2;255;255;255mAssumed to be present by many ssh daemons and clients such as [0m[1;38;2;249;38;114m**[0m[1;38;2;249;38;114mDropBear[0m[1;38;2;249;38;114m**[0m[38;2;255;255;255m and [0m[1;38;2;249;38;114m**[0m[1;38;2;249;38;114mOpenSSH[0m[1;38;2;249;38;114m**[0m[38;2;255;255;255m.[0m
+
+[[1m[31mpass[0m]: [1m[3m/home/reda/.password-store[0m
+[38;2;255;255;255mExport the following environment variables:[0m
+
+[38;2;255;255;255m```[0m[38;2;190;132;255mbash[0m
+[38;2;249;38;114mexport[0m[38;2;255;255;255m [0m[38;2;255;255;255mPASSWORD_STORE_DIR[0m[38;2;249;38;114m=[0m[38;2;255;255;255m"[0m[38;2;255;255;255m$[0m[38;2;255;255;255mXDG_DATA_HOME[0m[38;2;255;255;255m"[0m[38;2;230;219;116m/pass[0m
+[38;2;255;255;255m```[0m
+
+[[1m[31mpostgresql[0m]: [1m[3m/home/reda/.psql_history[0m
+[38;2;255;255;255mExport the following environment variables:[0m
+
+[38;2;255;255;255m```[0m[38;2;190;132;255mbash[0m
+[38;2;249;38;114mexport[0m[38;2;255;255;255m [0m[38;2;255;255;255mPSQL_HISTORY[0m[38;2;249;38;114m=[0m[38;2;255;255;255m"[0m[38;2;255;255;255m$[0m[38;2;255;255;255mXDG_DATA_HOME[0m[38;2;230;219;116m/psql_history[0m[38;2;255;255;255m"[0m
+[38;2;255;255;255m```[0m
+
+[[1m[31mprofile[0m]: [1m[3m/home/reda/.profile[0m
+[38;2;255;255;255mThere are shells and window managers that don't need this file and won't create it, depending on your config, this file might be deleted or moved.[0m
+
+[38;2;255;255;255mIf you do not know, please do not move this file as it could lead to errors.[0m
+
+[[1m[31mpython[0m]: [1m[3m/home/reda/.python_history[0m
+[38;2;255;255;255mIf you're running python v3.13.0a3 or later, you can simply set the [0m[38;2;236;53;51m`[0m[38;2;236;53;51mPYTHON_HISTORY[0m[38;2;236;53;51m`[0m[38;2;255;255;255m environment variable.[0m
+
+[38;2;255;255;255mOtherwise, export the following environment variable:[0m
+
+[38;2;255;255;255m```[0m[38;2;190;132;255mbash[0m
+[38;2;249;38;114mexport[0m[38;2;255;255;255m [0m[38;2;255;255;255mPYTHONSTARTUP[0m[38;2;249;38;114m=[0m[38;2;255;255;255m"[0m[38;2;255;255;255m$[0m[38;2;255;255;255mXDG_CONFIG_HOME[0m[38;2;255;255;255m"[0m[38;2;230;219;116m/python/pythonrc[0m
+[38;2;255;255;255m```[0m
+
+[38;2;255;255;255mThen create the file [0m[38;2;228;46;112m_[0m[38;2;228;46;112m$XDG_CONFIG_HOME/python/pythonrc[0m[38;2;228;46;112m_[0m[38;2;255;255;255m, and put the following code into it:[0m
+
+[38;2;255;255;255m```[0m[38;2;190;132;255mpython[0m
+[38;2;117;113;94m#[0m[38;2;117;113;94m!/usr/bin/env python3[0m
+[38;2;117;113;94m#[0m[38;2;117;113;94m This entire thing is unnecessary post v3.13.0a3[0m
+[38;2;117;113;94m#[0m[38;2;117;113;94m https://github.com/python/cpython/issues/73965[0m
+
+[38;2;249;38;114mdef[0m[38;2;255;255;255m [0m[38;2;166;226;46mis_vanilla[0m[38;2;255;255;255m([0m[38;2;255;255;255m)[0m[38;2;255;255;255m [0m[38;2;255;255;255m->[0m[38;2;255;255;255m [0m[38;2;166;226;46mbool[0m[38;2;255;255;255m:[0m
+[38;2;255;255;255m    [0m[38;2;117;113;94m"""[0m[38;2;117;113;94m :return: whether running "vanilla" Python [0m[38;2;117;113;94m"""[0m
+[38;2;255;255;255m    [0m[38;2;249;38;114mimport[0m[38;2;255;255;255m [0m[38;2;255;255;255msys[0m
+[38;2;255;255;255m    [0m[38;2;249;38;114mreturn[0m[38;2;255;255;255m [0m[38;2;249;38;114mnot[0m[38;2;255;255;255m [0m[38;2;102;217;239mhasattr[0m[38;2;255;255;255m([0m[38;2;255;255;255m__builtins__[0m[38;2;255;255;255m,[0m[38;2;255;255;255m [0m[38;2;230;219;116m'[0m[38;2;230;219;116m__IPYTHON__[0m[38;2;230;219;116m'[0m[38;2;255;255;255m)[0m[38;2;255;255;255m [0m[38;2;249;38;114mand[0m[38;2;255;255;255m [0m[38;2;230;219;116m'[0m[38;2;230;219;116mbpython[0m[38;2;230;219;116m'[0m[38;2;255;255;255m [0m[38;2;249;38;114mnot[0m[38;2;255;255;255m [0m[38;2;249;38;114min[0m[38;2;255;255;255m [0m[38;2;255;255;255msys[0m[38;2;255;255;255m.[0m[38;2;255;255;255margv[0m[38;2;255;255;255m[[0m[38;2;190;132;255m0[0m[38;2;255;255;255m][0m
+
+
+[38;2;249;38;114mdef[0m[38;2;255;255;255m [0m[38;2;166;226;46msetup_history[0m[38;2;255;255;255m([0m[38;2;255;255;255m)[0m[38;2;255;255;255m:[0m
+[38;2;255;255;255m    [0m[38;2;117;113;94m"""[0m[38;2;117;113;94m read and write history from state file [0m[38;2;117;113;94m"""[0m
+[38;2;255;255;255m    [0m[38;2;249;38;114mimport[0m[38;2;255;255;255m [0m[38;2;255;255;255mos[0m
+[38;2;255;255;255m    [0m[38;2;249;38;114mimport[0m[38;2;255;255;255m [0m[38;2;255;255;255matexit[0m
+[38;2;255;255;255m    [0m[38;2;249;38;114mimport[0m[38;2;255;255;255m [0m[38;2;255;255;255mreadline[0m
+[38;2;255;255;255m    [0m[38;2;249;38;114mfrom[0m[38;2;255;255;255m [0m[38;2;255;255;255mpathlib[0m[38;2;255;255;255m [0m[38;2;249;38;114mimport[0m[38;2;255;255;255m [0m[38;2;255;255;255mPath[0m
+
+[38;2;255;255;255m    [0m[38;2;117;113;94m#[0m[38;2;117;113;94m https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html#variables[0m
+[38;2;255;255;255m    [0m[38;2;249;38;114mif[0m[38;2;255;255;255m [0m[38;2;255;255;255mstate_home[0m[38;2;255;255;255m [0m[38;2;249;38;114m:=[0m[38;2;255;255;255m [0m[38;2;255;255;255mos[0m[38;2;255;255;255m.[0m[38;2;255;255;255menviron[0m[38;2;255;255;255m.[0m[38;2;255;255;255mget[0m[38;2;255;255;255m([0m[38;2;230;219;116m'[0m[38;2;230;219;116mXDG_STATE_HOME[0m[38;2;230;219;116m'[0m[38;2;255;255;255m)[0m[38;2;255;255;255m:[0m
+[38;2;255;255;255m            [0m[38;2;255;255;255mstate_home[0m[38;2;255;255;255m [0m[38;2;249;38;114m=[0m[38;2;255;255;255m [0m[38;2;255;255;255mPath[0m[38;2;255;255;255m([0m[38;2;255;255;255mstate_home[0m[38;2;255;255;255m)[0m
+[38;2;255;255;255m    [0m[38;2;249;38;114melse[0m[38;2;255;255;255m:[0m
+[38;2;255;255;255m        [0m[38;2;255;255;255mstate_home[0m[38;2;255;255;255m [0m[38;2;249;38;114m=[0m[38;2;255;255;255m [0m[38;2;255;255;255mPath[0m[38;2;255;255;255m.[0m[38;2;255;255;255mhome[0m[38;2;255;255;255m([0m[38;2;255;255;255m)[0m[38;2;255;255;255m [0m[38;2;249;38;114m/[0m[38;2;255;255;255m [0m[38;2;230;219;116m'[0m[38;2;230;219;116m.local[0m[38;2;230;219;116m'[0m[38;2;255;255;255m [0m[38;2;249;38;114m/[0m[38;2;255;255;255m [0m[38;2;230;219;116m'[0m[38;2;230;219;116mstate[0m[38;2;230;219;116m'[0m
+[38;2;255;255;255m    [0m[38;2;249;38;114mif[0m[38;2;255;255;255m [0m[38;2;249;38;114mnot[0m[38;2;255;255;255m [0m[38;2;255;255;255mstate_home[0m[38;2;255;255;255m.[0m[38;2;255;255;255mis_dir[0m[38;2;255;255;255m([0m[38;2;255;255;255m)[0m[38;2;255;255;255m:[0m
+[38;2;255;255;255m        [0m[38;2;102;217;239mprint[0m[38;2;255;255;255m([0m[38;2;230;219;116m"[0m[38;2;230;219;116mError: XDG_SATE_HOME does not exist at[0m[38;2;230;219;116m"[0m[38;2;255;255;255m,[0m[38;2;255;255;255m [0m[38;2;255;255;255mstate_home[0m[38;2;255;255;255m)[0m
+
+[38;2;255;255;255m    [0m[38;2;255;255;255mhistory[0m[38;2;255;255;255m:[0m[38;2;255;255;255m [0m[38;2;255;255;255mPath[0m[38;2;255;255;255m [0m[38;2;249;38;114m=[0m[38;2;255;255;255m [0m[38;2;255;255;255mstate_home[0m[38;2;255;255;255m [0m[38;2;249;38;114m/[0m[38;2;255;255;255m [0m[38;2;230;219;116m'[0m[38;2;230;219;116mpython_history[0m[38;2;230;219;116m'[0m
+
+[38;2;255;255;255m    [0m[38;2;117;113;94m#[0m[38;2;117;113;94m https://github.com/python/cpython/issues/105694[0m
+[38;2;255;255;255m    [0m[38;2;249;38;114mif[0m[38;2;255;255;255m [0m[38;2;249;38;114mnot[0m[38;2;255;255;255m [0m[38;2;255;255;255mhistory[0m[38;2;255;255;255m.[0m[38;2;255;255;255mis_file[0m[38;2;255;255;255m([0m[38;2;255;255;255m)[0m[38;2;255;255;255m:[0m
+[38;2;255;255;255m        [0m[38;2;249;38;114mwith[0m[38;2;255;255;255m [0m[38;2;102;217;239mopen[0m[38;2;255;255;255m([0m[38;2;255;255;255mhistory[0m[38;2;255;255;255m,[0m[38;2;230;219;116m"[0m[38;2;230;219;116mw[0m[38;2;230;219;116m"[0m[38;2;255;255;255m)[0m[38;2;255;255;255m [0m[38;2;249;38;114mas[0m[38;2;255;255;255m [0m[38;2;255;255;255mf[0m[38;2;255;255;255m:[0m
+[38;2;255;255;255m            [0m[38;2;255;255;255mf[0m[38;2;255;255;255m.[0m[38;2;255;255;255mwrite[0m[38;2;255;255;255m([0m[38;2;230;219;116m"[0m[38;2;230;219;116m_HiStOrY_V2_[0m[38;2;230;219;116m"[0m[38;2;255;255;255m [0m[38;2;249;38;114m+[0m[38;2;255;255;255m [0m[38;2;230;219;116m"[0m[38;2;230;219;116m\[0m
+[38;2;230;219;116m\[0m
+[38;2;230;219;116m"[0m[38;2;255;255;255m)[0m[38;2;255;255;255m [0m[38;2;117;113;94m#[0m[38;2;117;113;94m breaks on macos + python3 without this.[0m
+
+[38;2;255;255;255m    [0m[38;2;255;255;255mreadline[0m[38;2;255;255;255m.[0m[38;2;255;255;255mread_history_file[0m[38;2;255;255;255m([0m[38;2;255;255;255mhistory[0m[38;2;255;255;255m)[0m
+[38;2;255;255;255m    [0m[38;2;255;255;255matexit[0m[38;2;255;255;255m.[0m[38;2;255;255;255mregister[0m[38;2;255;255;255m([0m[38;2;255;255;255mreadline[0m[38;2;255;255;255m.[0m[38;2;255;255;255mwrite_history_file[0m[38;2;255;255;255m,[0m[38;2;255;255;255m [0m[38;2;255;255;255mhistory[0m[38;2;255;255;255m)[0m
+
+
+[38;2;249;38;114mif[0m[38;2;255;255;255m [0m[38;2;255;255;255mis_vanilla[0m[38;2;255;255;255m([0m[38;2;255;255;255m)[0m[38;2;255;255;255m:[0m
+[38;2;255;255;255m    [0m[38;2;255;255;255msetup_history[0m[38;2;255;255;255m([0m[38;2;255;255;255m)[0m
+[38;2;255;255;255m```[0m
+
+[[1m[31mrtorrent[0m]: [1m[3m/home/reda/.rtorrent.rc[0m
+[38;2;255;255;255mSupported since [0m[38;2;228;46;112m_[0m[38;2;228;46;112m6a8d332[0m[38;2;228;46;112m_[0m[38;2;255;255;255m.[0m
+
+[38;2;255;255;255mYou can move the file to [0m[38;2;228;46;112m_[0m[38;2;228;46;112m$XDG_CONFIG_HOME/rtorrent/rtorrent.rc[0m[38;2;228;46;112m_[0m[38;2;255;255;255m.[0m
+
+[[1m[33mthunderbird[0m]: [1m[3m/home/reda/.thunderbird[0m
+[38;2;255;255;255mCurrently unsupported.[0m
+
+[38;2;228;46;112m_[0m[38;2;228;46;112mRelevant issue:[0m[38;2;228;46;112m_[0m[38;2;255;255;255m [0m[4;38;2;166;226;46mhttps://bugzilla.mozilla.org[0m[4;38;2;166;226;46m/show[0m[4;38;2;166;226;46m_[0m[4;38;2;166;226;46mbug[0m[4;38;2;166;226;46m.[0m[4;38;2;166;226;46mcgi[0m[4;38;2;166;226;46m?[0m[4;38;2;166;226;46mid=735285[0m
+
+[[1m[31mvim[0m]: [1m[3m/home/reda/.vimrc[0m
+[38;2;255;255;255mSince 7.3.1178 vim will search for [0m[38;2;255;255;255m~[0m[38;2;255;255;255m/.vim/vimrc if [0m[38;2;255;255;255m~[0m[38;2;255;255;255m/.vimrc is not found.[0m
+
+[38;2;255;255;255m"$XDG_CONFIG_HOME"/vim/vimrc[0m
+[38;2;255;255;255m```[0m[38;2;190;132;255mvim[0m
+[38;2;255;255;255mset runtimepath^=$XDG_CONFIG_HOME/vim[0m
+[38;2;255;255;255mset runtimepath+=$XDG_DATA_HOME/vim[0m
+[38;2;255;255;255mset runtimepath+=$XDG_CONFIG_HOME/vim/after[0m
+
+[38;2;255;255;255mset packpath^=$XDG_DATA_HOME/vim,$XDG_CONFIG_HOME/vim[0m
+[38;2;255;255;255mset packpath+=$XDG_CONFIG_HOME/vim/after,$XDG_DATA_HOME/vim/after[0m
+
+[38;2;255;255;255mlet g:netrw_home = $XDG_DATA_HOME."/vim"[0m
+[38;2;255;255;255mcall mkdir($XDG_DATA_HOME."/vim/spell", 'p')[0m
+
+[38;2;255;255;255mset backupdir=$XDG_STATE_HOME/vim/backup | call mkdir(&backupdir, 'p')[0m
+[38;2;255;255;255mset directory=$XDG_STATE_HOME/vim/swap   | call mkdir(&directory, 'p')[0m
+[38;2;255;255;255mset undodir=$XDG_STATE_HOME/vim/undo     | call mkdir(&undodir,   'p')[0m
+[38;2;255;255;255mset viewdir=$XDG_STATE_HOME/vim/view     | call mkdir(&viewdir,   'p')[0m
+
+[38;2;255;255;255mif !has('nvim') | set viminfofile=$XDG_STATE_HOME/vim/viminfo | endif[0m
+[38;2;255;255;255m```[0m
+
+[38;2;255;255;255m~[0m[38;2;255;255;255m/.profile[0m
+[38;2;255;255;255m```[0m
+[38;2;255;255;255mexport GVIMINIT='let $MYGVIMRC="$XDG_CONFIG_HOME/vim/gvimrc" | source $MYGVIMRC'[0m
+[38;2;255;255;255mexport VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'[0m
+[38;2;255;255;255m```[0m
+[38;2;255;255;255m[G]VIMINIT environment variable will also affect Neovim. If separate configs for Vim and Neovim are desired then the following will be a better choice:[0m
+
+[38;2;255;255;255m```[0m
+[38;2;255;255;255mexport GVIMINIT='let $MYGVIMRC = !has("nvim") ? "$XDG_CONFIG_HOME/vim/gvimrc" : "$XDG_CONFIG_HOME/nvim/init.gvim" | so $MYGVIMRC'[0m
+[38;2;255;255;255mexport VIMINIT='let $MYVIMRC = !has("nvim") ? "$XDG_CONFIG_HOME/vim/vimrc" : "$XDG_CONFIG_HOME/nvim/init.vim" | so $MYVIMRC'[0m
+[38;2;255;255;255m```[0m
+
+[38;2;255;255;255mAdditional information:[0m
+[4;38;2;166;226;46mhttps://jorengarenar.github.io[0m[4;38;2;166;226;46m/blog/vim-xdg[0m
+[4;38;2;166;226;46mhttps://tlvince.com[0m[4;38;2;166;226;46m/vim-respect-xdg[0m
+
+[[1m[31mvim[0m]: [1m[3m/home/reda/.viminfo[0m
+[38;2;255;255;255mSee help for [0m[38;2;228;46;112m_[0m[38;2;228;46;112m.vimrc[0m[38;2;228;46;112m_[0m
+
+[[1m[31mvim[0m]: [1m[3m/home/reda/.vim[0m
+[38;2;255;255;255mSee help for [0m[38;2;228;46;112m_[0m[38;2;228;46;112m.vimrc[0m[38;2;228;46;112m_[0m
+
+[[1m[33mvmware[0m]: [1m[3m/home/reda/.vmware[0m
+[38;2;255;255;255mCurrently unsupported.[0m
+
+[38;2;255;255;255mIt can only be fixed by the company, since it's closed source.[0m
+
+[[1m[31mxinit[0m]: [1m[3m/home/reda/.xinitrc[0m
+[38;2;255;255;255mExport the following environment variable:[0m
+
+[38;2;255;255;255m```[0m[38;2;190;132;255mbash[0m
+[38;2;249;38;114mexport[0m[38;2;255;255;255m [0m[38;2;255;255;255mXINITRC[0m[38;2;249;38;114m=[0m[38;2;255;255;255m"[0m[38;2;255;255;255m$[0m[38;2;255;255;255mXDG_CONFIG_HOME[0m[38;2;255;255;255m"[0m[38;2;230;219;116m/X11/xinitrc[0m
+[38;2;255;255;255m```[0m
+
+[1;38;2;249;38;114m**[0m[1;38;2;249;38;114mWARNING: Moving this file can potentially lead to not being able to start your X11 session or some programs (eg. Wine) not working as intended.[0m[1;38;2;249;38;114m**[0m
+
+[[1m[31mxorg-xauth[0m]: [1m[3m/home/reda/.Xauthority[0m
+[38;2;255;255;255mExport the following environment variables:[0m
+
+[38;2;255;255;255m```[0m[38;2;190;132;255mbash[0m
+[38;2;249;38;114mexport[0m[38;2;255;255;255m [0m[38;2;255;255;255mXAUTHORITY[0m[38;2;249;38;114m=[0m[38;2;255;255;255m"[0m[38;2;255;255;255m$[0m[38;2;255;255;255mXDG_RUNTIME_DIR[0m[38;2;255;255;255m"[0m[38;2;230;219;116m/Xauthority[0m
+[38;2;255;255;255m```[0m
+
+[38;2;119;119;119m-[0m[38;2;255;255;255m [0m[1;38;2;249;38;114m**[0m[1;38;2;249;38;114mLightDM does not allow you to do this.[0m[1;38;2;249;38;114m**[0m[38;2;255;255;255m See [0m[38;2;255;255;255m[[0m[38;2;255;255;255mhere[0m[38;2;255;255;255m][0m[38;2;255;255;255m([0m[4;38;2;166;226;46mhttps://askubuntu.com/a/961459[0m[38;2;255;255;255m)[0m[38;2;255;255;255m for workaround.[0m
+[38;2;119;119;119m-[0m[38;2;255;255;255m SLiM has [0m[38;2;228;46;112m_[0m[38;2;228;46;112m~/.Xauthority[0m[38;2;228;46;112m_[0m[38;2;255;255;255m hardcoded[0m
+
+[38;2;119;119;119m-[0m[38;2;255;255;255m [0m[38;2;255;255;255mSDDM uses its own config to set XAUTHORITY variable. [0m[1;38;2;249;38;114m**[0m[1;38;2;249;38;114mDo not set it manually.[0m[1;38;2;249;38;114m**[0m
+[38;2;255;255;255mExample [0m[38;2;236;53;51m`[0m[38;2;236;53;51m/etc/sddm.conf.d/xorg_settings.conf[0m[38;2;236;53;51m`[0m[38;2;255;255;255m:[0m
+[38;2;255;255;255m```[0m[38;2;190;132;255mini[0m
+[38;2;255;255;255m[X11][0m
+[38;2;255;255;255mUserAuthFile=.local/share/sddm/Xauthority[0m
+[38;2;255;255;255m```[0m
+[1;38;2;249;38;114m**[0m[1;38;2;249;38;114mWARNING: Moving this file can potentially lead to not being able to start your X11 session or some programs (eg. Wine) not working as intended.[0m[1;38;2;249;38;114m**[0m
+
+[[1m[31mzsh[0m]: [1m[3m/home/reda/.zcompdump-archlinux-5.9[0m
+[38;2;255;255;255mSet this in your zshrc:[0m
+
+[38;2;255;255;255m```[0m[38;2;190;132;255mbash[0m
+[38;2;255;255;255mcompinit[0m[38;2;253;151;31m -[0m[38;2;253;151;31md[0m[38;2;255;255;255m [0m[38;2;255;255;255m"[0m[38;2;255;255;255m$[0m[38;2;255;255;255mXDG_CACHE_HOME[0m[38;2;255;255;255m"[0m[38;2;255;255;255m/zsh/zcompdump-[0m[38;2;255;255;255m"[0m[38;2;255;255;255m$[0m[38;2;255;255;255mZSH_VERSION[0m[38;2;255;255;255m"[0m
+[38;2;255;255;255m```[0m
+
+[38;2;255;255;255mYou must manually create the [0m[38;2;228;46;112m_[0m[38;2;228;46;112m$XDG_CACHE_HOME/zsh[0m[38;2;228;46;112m_[0m[38;2;255;255;255m directory if it doesn't exist yet.[0m
+
+[[1m[31mzsh[0m]: [1m[3m/home/reda/.zsh_history[0m
+[38;2;255;255;255mSet this in your zshrc:[0m
+
+[38;2;255;255;255m```[0m[38;2;190;132;255mbash[0m
+[38;2;249;38;114mexport[0m[38;2;255;255;255m [0m[38;2;255;255;255mHISTFILE[0m[38;2;249;38;114m=[0m[38;2;255;255;255m"[0m[38;2;255;255;255m$[0m[38;2;255;255;255mXDG_STATE_HOME[0m[38;2;255;255;255m"[0m[38;2;230;219;116m/zsh/history[0m
+[38;2;255;255;255m```[0m
+
+[38;2;255;255;255mYou must manually create the [0m[38;2;228;46;112m_[0m[38;2;228;46;112m$XDG_STATE_HOME/zsh[0m[38;2;228;46;112m_[0m[38;2;255;255;255m directory if it doesn't exist yet.[0m
+
+[[1m[31mzsh[0m]: [1m[3m/home/reda/.zshrc[0m
+[38;2;255;255;255mMove the file to [0m[38;2;228;46;112m_[0m[38;2;228;46;112m"$HOME"/.config/zsh/.zshrc[0m[38;2;228;46;112m_[0m[38;2;255;255;255m and export the following environment variable:[0m
+
+[38;2;255;255;255m```[0m[38;2;190;132;255mbash[0m
+[38;2;249;38;114mexport[0m[38;2;255;255;255m [0m[38;2;255;255;255mZDOTDIR[0m[38;2;249;38;114m=[0m[38;2;255;255;255m"[0m[38;2;255;255;255m$[0m[38;2;255;255;255mHOME[0m[38;2;255;255;255m"[0m[38;2;230;219;116m/.config/zsh[0m
+[38;2;255;255;255m```[0m
+[38;2;255;255;255mYou can do this in [0m[38;2;228;46;112m_[0m[38;2;228;46;112m/etc/zshenv[0m[38;2;228;46;112m_[0m[38;2;255;255;255m (Or [0m[38;2;228;46;112m_[0m[38;2;228;46;112m/etc/zsh/zshenv[0m[38;2;228;46;112m_[0m[38;2;255;255;255m, on some distros).[0m
+
+[1m[3mDone checking your [36m$HOME.[0m
+
+[3mIf you have files in your [36m$HOME[0m[3m that shouldn't be there, but weren't recognised by xdg-ninja, please consider creating a configuration file for it and opening a pull request on github.[0m
+

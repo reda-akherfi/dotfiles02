@@ -1,0 +1,13 @@
+here put all the scripts for rofi; akin to a command center for my sys
+do not add it to the path, just use the absolute paths when assigning the various kay bindings
+
+ideas for scripts :
+    1. wifi/ethernet menu using nmcli ; passwords, saved conns, rescans ...
+    2. power menu : lock, poweroff, reboot, logout, hibernate [set it up]
+    3. a quick access to the various config files
+    4. window listing for qtile | use the qtile cmd api or wmctrl ...
+    5. controlling mpd : accessing playlists, songs, setting up flags [random, repeat...]
+    6. a system info window : cpu, df, .....
+    7. calculator
+    8. mpv : finding movies episodes ... and allow for skipping to the next episode from lobster and mov-cli ...
+    9. dictionary using sdcv and stardict dictionaries [longman] #rtfw

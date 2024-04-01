@@ -1,0 +1,2 @@
+
+* [[gpg|gpg : how to back up your secrets]]

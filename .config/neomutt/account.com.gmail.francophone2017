@@ -1,0 +1,40 @@
+# User
+set from = "redafrancophone2017@gmail.com"
+set realname = "AKHERFI Reda"
+
+# Gmail
+set imap_user = "redafrancophone2017@gmail.com"
+set smtp_url = "smtps://redafrancophone2017@gmail.com@smtp.gmail.com:465/"
+set smtp_authenticators = 'gssapi:login'
+set imap_pass = "ycun xpay dpzp vvag"
+set smtp_pass = "ycun xpay dpzp vvag"
+
+# Ensure TLS is enforced
+set ssl_starttls = yes
+set ssl_force_tls = yes
+
+set folder = "imaps://redafrancophone2017@gmail.com@imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set postponed = "+[Gmail]/Drafts"
+set record = "+[Gmail]/Sent"
+set trash = "+[Gmail]/Trash"
+
+# mailboxes
+named-mailboxes all '+[Gmail]/All Mail'
+named-mailboxes inbox '+INBOX'
+named-mailboxes sent '+[Gmail]/Sent Mail'
+named-mailboxes trash '+[Gmail]/Trash'
+named-mailboxes spam '+[Gmail]/Spam'
+named-mailboxes drafts '+[Gmail]/Drafts'
+named-mailboxes important '+[Gmail]/Important'
+
+# Be sure to `mkdir -p` the following paths
+set header_cache =/home/reda/.config/neomutt/com.gmail.francophone2017/cache/headers
+set message_cachedir =/home/reda/.config/neomutt/com.gmail.francophone2017/cache/bodies
+set certificate_file =/home/reda/.config/neomutt/com.gmail.francophone2017/certificates
+
+set move = no
+set imap_keepalive = 900
+
+set sort = reverse-threads
+set sort_aux = last-date-received

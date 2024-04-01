@@ -1,0 +1,53 @@
+#!/bin/bash
+
+# this script is triggered by a key binding [ideally an obscure since i would notbe used that much]
+# it toggles the activation of picom if the --toggle option is passed 
+# it stops it in case of --off and starts it ith --on
+
+
+# this function checks if there is an already running instance of picom
+picom_is_running() {
+    pgrep -x "picom" > /dev/null
+}
+
+# this function starts picom
+start_picom() {
+    if  picom_is_running ;then
+        notify-send "picom script" "an instance of picom is already running";
+    else
+        picom -b && notify-send "picom script" "picom has started successfully";
+    fi
+}
+
+# this function kill picom
+kill_picom() {
+    if  picom_is_running ;then
+        killall picom && notify-send "picom script" "killed picom sucessfully";
+    else
+        notify-send "picom script" "there is no picom to kill";
+    fi
+}
+
+# here we verify the arg passed to the script
+case $1 in 
+    "--on") start_picom;;
+    "--off") kill_picom;;
+    "--toggle") 
+        if picom_is_running;then
+            kill_picom
+        else
+            start_picom
+        fi
+    ;;
+    "--help")
+        echo -e " This script has been created by Reda AKHERFI\n
+            it accepts these options:\n
+            --on : start picom if it is not started already
+            --off : stop picom if is running 
+            --toggle  : start/stop depending on the current status
+            --help    : displays this help "
+    ;;
+    *) echo -e "bro!! you have to pass the argument to the script!!\n\tSEEK --help man!!\n" ; exit 1;;
+esac
+
+

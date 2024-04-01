@@ -1,0 +1,7 @@
+#/bin/bash
+
+# a script to add a torrent to transmission
+
+pgrep -x transmission-daemon > /dev/null || transmission-daemon
+
+transmission-remote --add "$@" && notify-send "Transmission-cli" "Torrent ADDED."

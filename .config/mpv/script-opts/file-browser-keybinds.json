@@ -1,0 +1,77 @@
+[
+    {
+        "key": "k",
+        "command": ["script-binding", "file_browser/dynamic/scroll_up"],
+        "passthrough":true
+    },
+    {
+        "key": "p",
+        "command": ["script-binding", "file_browser/dynamic/play"],
+        "passthrough":true
+    },
+    {
+        "key": "a",
+        "command": ["script-binding", "file_browser/dynamic/play_append"],
+        "passthrough":true
+    },
+    {
+        "key": "l",
+        "command": ["script-binding", "file_browser/dynamic/down_dir"],
+        "passthrough":true
+    },
+    {
+        "key": "c",
+        "command": ["script-binding", "file_browser/dynamic/close"],
+        "passthrough":true
+    },
+    {
+        "key": "n",
+        "command": ["script-binding", "file_browser/dynamic/goto_current"],
+        "passthrough":true
+    },
+    {
+        "key": "h",
+        "command": ["script-binding", "file_browser/dynamic/up_dir"],
+        "passthrough":true
+    },
+    {
+        "key": "v",
+        "command": ["script-binding", "file_browser/dynamic/select_mode"],
+        "passthrough":true
+    },
+    {
+        "key": "s",
+        "command": ["script-binding", "file_browser/dynamic/select_item"],
+        "passthrough":true
+    },
+    {
+        "key": "Shift+g",
+        "command": ["script-binding", "file_browser/dynamic/list_bottom"],
+        "passthrough":true
+    },
+    {
+        "key": "g",
+        "command": ["script-binding", "file_browser/dynamic/list_top"],
+        "passthrough":true
+    },
+    {
+        "key": "c",
+        "command": ["script-binding", "file_browser/browse-files"],
+        "passthrough":false
+    },
+    {
+        "key": "Ctrl+u",
+        "command": ["script-binding", "file_browser/dynamic/page_up"],
+        "passthrough":true
+    },
+    {
+        "key": "Ctrl+d",
+        "command": ["script-binding", "file_browser/dynamic/page_down"],
+        "passthrough":true
+    },
+    {
+        "key": "j",
+        "command": ["script-binding", "file_browser/dynamic/scroll_down"],
+        "passthrough":true
+    }
+]

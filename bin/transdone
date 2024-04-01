@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# for when a torrent is done being downloaded
+
+notify-send "Transmission-daemon" "$TR_TORRENT_NAME is finished downloading!"

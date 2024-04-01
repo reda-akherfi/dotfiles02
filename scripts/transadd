@@ -1,0 +1,12 @@
+#!/bin/bash
+
+######################################################################
+## a scipt to setup the mime associa to trasminssion + dunst stuff
+######################################################################
+
+# checking if the transmission daemon is running
+pgrep -x  transmission-daemon > /dev/null || transmission-daemon
+
+# adding the torrent and sending the notif if happened successfully
+transmission-remote --add "$@"  && notify-send "tranmission-daemon" "torrent Added successfully."
+
