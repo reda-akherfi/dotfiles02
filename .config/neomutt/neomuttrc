@@ -6,6 +6,12 @@ folder-hook 'account.com.gmail.francophone2017' 'source /home/reda/.config/neomu
 folder-hook 'account.com.gmail.akherfi07' 'source ~/.neomutt/account.com.gmail.akherfi07'
 folder-hook 'account.com.gmail.akherfi68' 'source ~/.neomutt/account.com.gmail.akherfi68'
 
+# key bindings
+source /home/reda/dotfiles/.config/neomutt/keys/unbinds.muttrc
+source /home/reda/dotfiles/.config/neomutt/keys/binds.muttrc
+
+set mailcap_path = /home/reda/dotfiles/.config/neomutt/mailcap
+
 # Macros to switch accounts
 macro index <f2> "<enter-command>unmailboxes *<enter><enter-command>source /home/reda/.config/neomutt/account.com.gmail.francophone2017<enter><sync-mailbox><change-folder>!<enter>"
 macro index <f3> "<enter-command>unmailboxes *<enter><enter-command>source /home/reda/.config/neomutt/account.com.gmail.akherfi07<enter><sync-mailbox><change-folder>!<enter>"

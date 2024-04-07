@@ -13,7 +13,7 @@ case $SRL in
         pkill qtile
         ;;
     Lock)
-        i3lock --show-failed-attempts --image ~/dotfiles/wallpapers-stash/weird-mountain.png --tiling && systemctl suspend
+        i3lock --show-failed-attempts -c 000000  && systemctl suspend
         ;;
     *)
         ;;

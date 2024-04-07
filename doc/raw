@@ -8,3 +8,7 @@ adding a line to .xinitrc for setting the dpi since xrandr kinda suck at it?
 ^-- SC1014 (warning): Use 'if cmd; then ..' to check exit code, or 'if [[ $(cmd) == .. ]]' to check output.
 
 Set colors.webpage.darkmode.policy.images to never
+
+#task
+task context define english "project:english"
+task add +Tag <...>

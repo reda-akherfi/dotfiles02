@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+
+
+/bin/bash -c 'timeout 30s thunderbird --headless;echo $(date) >> ~/hello'
+

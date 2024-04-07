@@ -174,3 +174,5 @@ function dict() {
 	fold --width=$(tput cols) | \
 	less --quit-if-one-screen -RX
 }
+
+alias wo="sc-im ~/memalpha/words.sc"
